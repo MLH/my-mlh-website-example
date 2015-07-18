@@ -3,18 +3,30 @@
 * http://bit.ly/1MsJU8E
 */
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,300italic);
+
 * {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Source Sans", sans-serif;
+  color: #ffffff;
 }
 
 body {
-  background: #ffffff;
   height: 100vh;
   color: #000000;
+  background-image: url("../images/waves.png");
+  background-repeat: repeat-x;
+}
+
+.shark-image {
+  margin-top: 20vh;
 }
 
 .hero {
   height: 100%;
+}
+
+.light-font {
+  font-weight: 300;
 }
 
 .container {
@@ -26,27 +38,46 @@ body {
 }
 
 .hero h1 {
-  font-family: "Arial", sans-serif;
-  font-size: 60px;
+  font-weight: 900;
+  font-size: 65px;
   font-weight: bold;
   text-align: center;
 }
 
-.hero button {
+.hero a {
   background: none;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 20px;
   font-size: 24px;
   margin: 14px 10px;
-  padding: 5px;
-  width: 163px;
+  padding: 8px 23px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.hero button.sponsor {
+.row.buttons {  
+  margin-top: 20px;
+}
+
+
+.hero a:hover{
+  color: #156370;
+  background: #ffffff;
+}
+
+.hero a.sponsor {
 }
 
 .hero .sponsor img {
   height: 1.2em;
 }
 
-@media()
+.shark {
+  position: absolute;
+  bottom: 0;
+  width: 26em;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
