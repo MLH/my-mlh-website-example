@@ -1,0 +1,52 @@
+/*
+* SHARKHACKS 5000 CSS File
+* http://bit.ly/1MsJU8E
+*/
+
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+  background: #ffffff;
+  height: 100vh;
+  color: #000000;
+}
+
+.hero {
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+}
+
+.hero-info {
+  margin-top: 15px;
+}
+
+.hero h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero button {
+  background: none;
+  border: 3px solid black;
+  border-radius: 20px;
+  font-size: 24px;
+  margin: 14px 10px;
+  padding: 5px;
+  width: 163px;
+}
+
+.hero button.sponsor {
+}
+
+.hero .sponsor img {
+  height: 1.2em;
+}
+
+@media()
